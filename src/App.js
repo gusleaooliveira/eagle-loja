@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Cabecalho from './components/Cabecalho';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <div>
-      <Header titulo="Eagle Store" />
+      <Cabecalho titulo="Eagle Store" />
+
+      <Menu />
     </div>
   );
 }
