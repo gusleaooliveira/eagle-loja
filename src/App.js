@@ -8,6 +8,10 @@ function App() {
     <div>
       <Cabecalho titulo="Eagle Store" />
 
+      <section>
+        <h1 className="text-center">Início</h1>
+      </section>
+
       <Menu />
     </div>
   );
